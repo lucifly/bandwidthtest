@@ -3,5 +3,5 @@
 for var in `cat iplist`
 do
     echo ${var}
-    iperf -c ${var}  > a
+    iperf -c ${var}  >> a
 done
